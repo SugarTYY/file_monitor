@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+#文件监听配置
+fileconf:
+  location: C:\\文件\\TMP
+  interval: 100
+  taskwait: 5
+#日志
+logging:
+  level:
+    root: info
